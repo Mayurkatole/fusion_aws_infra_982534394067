@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
   count         = var.instance_count
 
   tags = {
-    Name = "prodserver001"
+    Name = "prodserver00003"
   }
 }
 
@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "example" {
   bucket = var.aws_s3_bucket
 
   tags = {
-    Name        = "My bucket 0007"
+    Name        = "My bucket 1000007"
     Environment = "Dev"
   }
 }
