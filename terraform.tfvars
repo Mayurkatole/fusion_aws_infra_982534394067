@@ -1,5 +1,2 @@
-instance_ami   = "ami-0327f51db613d7bd2"
-instance_type  = "t2.micro"
-instance_count = "1"
-cidr_range     = "172.16.0.0/16"
-aws_s3_bucket  = "my-example0001111-bucket"
+instance_type   = "t2.micro"
+insatance_count = "0"
